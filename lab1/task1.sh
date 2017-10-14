@@ -30,7 +30,3 @@ gpg --passphrase-file passphrase.txt --decrypt data.bin >> decrypted-data.bin
 sha256sum decrypted-data.bin
 # Result: 3059724a4a32088244560552b09bb425db76f71c6143ed0af20ae62b7861ea96 (correct)
 
-# Determining the file type
-file decrypted-data.bin
-# Result: decrypted-data.bin: ISO Media, MP4 v2 [ISO 14496-14]
-# The file is a video from TED talks
