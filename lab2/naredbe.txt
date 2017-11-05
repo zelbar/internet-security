@@ -21,3 +21,17 @@ su hacker
 
 # where HPK3EQsM is the salt found in /etc/shadow
 mkpasswd Internet1 -m sha-512 -s HPK3EQsM
+
+# Task 3
+
+cd /home/sui/zadatak2
+sudo john /etc/shadow
+
+sudo john pass_MD5
+sudo john pass_SHA-256
+sudo john pass_SHA-256_weak
+sudo john pass_SHA-512
+sudo john pass_SHA-512_weak
+
+man john
+
