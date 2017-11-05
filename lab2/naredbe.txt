@@ -35,3 +35,7 @@ sudo john pass_SHA-512_weak
 
 man john
 
+# Task 4
+
+strings malware1
+strings malware2
