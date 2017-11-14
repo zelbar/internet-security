@@ -1,0 +1,27 @@
+# Task 1
+
+# Performing in Windows host system in Command prompt
+
+ping 192.168.5.19
+# Reply from 192.168.5.19: bytes=32 time<1ms TTL=64
+
+tracert 192.168.5.19
+# 1 hop
+
+ping mail.fer.hr
+# Reply from 161.53.72.233: bytes=32 time=9ms TTL=119
+
+tracert mail.fer.hr
+# 9 hops
+
+ping 161.53.19.1
+# Reply from 161.53.19.1: bytes=32 time=8ms TTL=247
+
+tracert 161.53.19.1
+# 10 hops
+
+ping imunes.net
+# Reply from 161.53.19.8: bytes=32 time=9ms TTL=55
+
+tracert imunes.net
+# 9 hops
