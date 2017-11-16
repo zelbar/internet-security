@@ -25,3 +25,12 @@ ping imunes.net
 
 tracert imunes.net
 # 9 hops
+
+
+# Task 4
+
+aircrack-ng SUI1_WEP.cap
+#  KEY FOUND! [ 88:E2:F8:53:6E:99:27:35:BC:69:C8:4C:7E ]
+
+aircrack-ng SUI2_WEP.cap
+# KEY FOUND! [ D5:71:92:38:04:EE:50:FA:E2:D2:0D:F7:DC ]
