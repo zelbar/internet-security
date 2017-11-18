@@ -26,6 +26,17 @@ ping imunes.net
 tracert imunes.net
 # 9 hops
 
+# Task 2
+
+nmap 192.168.5.19
+nmap -O 192.168.5.19
+nmap -sV 192.168.5.19
+nmap -A 192.168.5.19
+
+sudo service apache2 start
+sudo service mysql start
+sudo aptitude install proftpd telnetd bind9
+sudo nmap -sV localhost
 
 # Task 4
 
