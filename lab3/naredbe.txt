@@ -38,6 +38,15 @@ sudo service mysql start
 sudo aptitude install proftpd telnetd bind9
 sudo nmap -sV localhost
 
+# Task 3
+
+sudo iptables-restore < iptables.clean
+sudo iptables-restore < iptables.rules
+nano iptables.rules
+# -> add described rules and save
+sudo iptables-restore < iptables.clean
+sudo iptables-restore < iptables.rules
+
 # Task 4
 
 aircrack-ng SUI1_WEP.cap
